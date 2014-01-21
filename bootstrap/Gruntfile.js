@@ -23,13 +23,13 @@ module.exports = function(grunt) {
     },
     open: {
       server: {
-        url: 'http://localhost:8000'
+        url: 'http://localhost:8080'
       }
     },
     connect: {
       server: {
         options: {
-          port: 8000,
+          port: 8080,
           base: '.',
           livereload: true
         }
