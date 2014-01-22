@@ -1,4 +1,6 @@
 angular-password-directive
 ==========================
 
-[example here](http://baldurh.github.io/)
+## Examples
+* [bootstrap](http://baldurh.github.io/password-directive/bootstrap/)
+* [foundation](http://baldurh.github.io/password-directive/foundation/)
