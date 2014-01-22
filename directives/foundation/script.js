@@ -14,13 +14,6 @@ angular.module('app', [])
                       </a>\
                     </div>\
                   </div>',
-        /*template: '<div class="input-group" ng-class="{\'has-error\': showPassword}">\
-                    <span class="input-group-btn">\
-                      <button class="btn" ng-class="{false:\'btn-default\', true:\'btn-danger\'}[showPassword]" ng-mousedown="down()" ng-mouseup="up()" ng-mouseleave="check()">\
-                        <i class="fa fa-eye"></i>\
-                      </button>\
-                    </span>\
-                  </div>',*/
         compile: function(template) {
           var input = angular.element('<input type="{{input_type}}" ng-model="password">');
           var container = angular.element('<div class="small-10 columns"></div>');

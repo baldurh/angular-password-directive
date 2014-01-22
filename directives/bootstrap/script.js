@@ -9,7 +9,7 @@ angular.module('app', [])
         replace: true,
         template: '<div class="input-group" ng-class="{\'has-error\': showPassword}">\
                     <span class="input-group-btn">\
-                      <button class="btn" ng-class="{false:\'btn-default\', true:\'btn-danger\'}[showPassword]" ng-mousedown="down()" ng-mouseup="up()" ng-mouseleave="check()">\
+                      <button class="btn" ng-class="{false:\'btn-primary\', true:\'btn-danger\'}[showPassword]" ng-mousedown="down()" ng-mouseup="up()" ng-mouseleave="check()">\
                         <i class="fa fa-eye"></i>\
                       </button>\
                     </span>\
